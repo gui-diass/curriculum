@@ -1,1 +1,3 @@
 # curriculum
+
+not finished yet 
