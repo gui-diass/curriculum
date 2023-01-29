@@ -1,0 +1,50 @@
+/* <!-- <div class="icon-container">
+    <div class="icon-position">
+        <a class="icons icon-twitter" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="icons icon-linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+        <a class="icons icon-instagram" href="#"><i class="fab fa-instagram"></i></a>
+        <a class="icons icon-github" href="#"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+
+
+icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-position {
+    background-color: rgb(9, 32, 50);
+    height: 70px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    color: #ffffff;
+    margin: 0px 20px 0px;
+}
+
+.icon-twitter:hover {
+    color: rgb(0, 136, 239);
+    transition: 0.5s;
+}
+
+.icon-linkedin:hover {
+    color: rgb(0, 67, 192);
+    transition: 0.5s;
+}
+
+.icon-instagram:hover {
+    color: rgb(236, 0, 102);
+    transition: 0.5s;
+}
+
+.icon-github:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+} --> */
