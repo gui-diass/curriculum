@@ -1,3 +1,3 @@
 # curriculum
 
-not finished yet 
+updates coming soon
