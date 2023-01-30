@@ -323,9 +323,37 @@
 }
 
 
+
+
+#position-info-curriculum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
 #container-about-me {
-    width: 250px;
-    height: 250px;
-    background-color: aqua;
+    width: 50%;
+    height: 900px;
+
     
+}
+
+.title-container {
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 80px;
+}
+
+.title-style {
+    text-transform: uppercase;
+    font-size:  clamp(3em, 1em, 2em);  
+}
+
+.paragraph-style {
+    font-size:  clamp(1.5em, 1em, 2em);
 }
