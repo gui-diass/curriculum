@@ -188,6 +188,7 @@ blockquote cite {
 }
 
 
+
 .intro-position {
   height: 20%;
   display: flex;
@@ -210,7 +211,7 @@ blockquote cite {
 
 .p-intro {
   color: #000000e1;
-  font-size: clamp(1em, 1em, 1em)
+  font-size: clamp(1em, 1em, 1em);
 }
 
 
@@ -231,6 +232,23 @@ blockquote cite {
     margin-left: 8%;
     margin-right: 8%;
   }
-  
+}
+
+.experience-position{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5%;
+  border-top: 1px solid #000000;
+  border-bottom:1px solid #0000000f;
+
+}
+
+.h1-experience {
+  letter-spacing: 0.3rem;
+  color: #000000f5;
+  font-weight: bold;
+  font-size: clamp(1em, 1em, 1em);
+  text-transform: uppercase;
 
 }
