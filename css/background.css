@@ -378,7 +378,7 @@ blockquote cite {
   letter-spacing: 0.1rem;
 }
 
-.p-experience-company2{
+.p-experience-company2 {
   font-size: clamp(0.9em, 0.9em, 0.9em);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -393,6 +393,34 @@ blockquote cite {
 }
 
 
+.background-competence{
+  background-color: #182153;
+  width: 100%;
+  height: 500px;
+}
+
+
+.competence-position {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-bottom: 1px solid #ffffff;
+  background-color: #182153;
+
+
+}
+
+.h1-competence {
+  letter-spacing: 0.3rem;
+  color: #fffffff5;
+  font-weight: bold;
+  font-size: clamp(1em, 1em, 1em);
+  text-transform: uppercase;
+  display: flex;
+}
 
 
 @media(min-width: 518px) and (max-width: 740px) {
@@ -405,6 +433,18 @@ blockquote cite {
     text-transform: uppercase;
   }
 
+
+  .h1-competence {
+    letter-spacing: 0.3rem;
+    color: #fffffff5;
+    font-weight: bold;
+    font-size: clamp(0.8em, 0.8em, 0.8em);
+    text-transform: uppercase;
+    display: flex;
+  }
+
+
+
   .p-experience-company {
     color: #000000f0;
     font-size: clamp(0.7em, 0.7em, 0.7em);
@@ -412,7 +452,7 @@ blockquote cite {
     letter-spacing: 0.1rem;
   }
 
-  .p-experience-company2{
+  .p-experience-company2 {
     font-size: clamp(0.7em, 0.7em, 0.7em);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -431,7 +471,6 @@ blockquote cite {
     color: #000000e1;
     font-size: clamp(0.7em, 0.7em, 0.7em);
   }
-
 }
 
 
@@ -445,15 +484,27 @@ blockquote cite {
     text-transform: uppercase;
   }
 
+
+  .h1-competence {
+    letter-spacing: 0.3rem;
+    color: #fffffff5;
+    font-weight: bold;
+    font-size: clamp(0.74em, 0.74em, 0.74em);
+    text-transform: uppercase;
+    display: flex;
+  }
+
+
+
   .p-experience-company {
     color: #000000f0;
     font-size: clamp(0.33em, 0.33em, 0.33em);
     text-transform: uppercase;
-     letter-spacing: 0.1rem;
-    
+    letter-spacing: 0.1rem;
+
   }
 
-  .p-experience-company2{
+  .p-experience-company2 {
     color: #000000;
     font-size: clamp(0.37em, 0.37em, 0.37em);
     text-transform: uppercase;
@@ -479,3 +530,5 @@ blockquote cite {
     font-size: clamp(0.9em, 1em, 0.4em);
   }
 }
+
+
