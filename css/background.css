@@ -32,7 +32,7 @@ h1 {
 }
 
 a {
-  color: #ffffff;
+  color: #000000;
 }
 
 p {
@@ -58,7 +58,7 @@ blockquote cite {
   font: 18px/23px;
   font-size: 16px;
   margin-top: 16px;
-  color: #cccccc;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -241,7 +241,7 @@ blockquote cite {
 }
 
 .h1-intro {
-  font-size: clamp(1.4em, 1em, 1em);
+  font-size: clamp(1.4em, 1em, 5em);
   color: #000000;
   font-weight: lighter;
 }
@@ -255,7 +255,7 @@ blockquote cite {
 
 .p-intro {
   color: #000000e1;
-  font-size: clamp(1em, 1em, 1em);
+  font-size: clamp(1em, 4em, 1em);
 }
 
 
@@ -430,7 +430,7 @@ blockquote cite {
 
   .p-experience-company {
     color: #000000f0;
-    font-size: clamp(0.3em, 0.3em, 0.3em);
+    font-size: clamp(0.33em, 0.33em, 0.33em);
     text-transform: uppercase;
   }
 
@@ -444,7 +444,11 @@ blockquote cite {
 
   .p-experience-container2 {
     color: #000000e1;
-    font-size: clamp(0.35em, 0.35em, 0.35em);
+    font-size: clamp(0.5em, 1em, 0.4em);
   }
 
+  .link {
+    color: #000000e1;
+    font-size: clamp(0.9em, 1em, 0.4em);
+  }
 }
