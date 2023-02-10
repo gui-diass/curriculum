@@ -188,6 +188,50 @@ blockquote cite {
 }
 
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #ffffff;
+}
+
+.icon-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39.5%;
+  height: 70px;
+}
+
+.icons {
+  color: #ffffff;
+  margin: 0px 20px 0px;
+}
+
+.icon-twitter:hover {
+  color: rgb(0, 136, 239);
+  transition: 0.5s;
+}
+
+.icon-linkedin:hover {
+  color: rgb(0, 67, 192);
+  transition: 0.5s;
+}
+
+.icon-instagram:hover {
+  color: rgb(236, 0, 102);
+  transition: 0.5s;
+}
+
+.icon-github:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+
+
 
 .intro-position {
   height: 20%;
@@ -235,12 +279,14 @@ blockquote cite {
 }
 
 .experience-position {
+  height: 8%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 
 }
 
@@ -250,7 +296,7 @@ blockquote cite {
   font-weight: bold;
   font-size: clamp(1em, 1em, 1em);
   text-transform: uppercase;
-
+  display: flex;
 }
 
 #main-container {
@@ -275,7 +321,7 @@ blockquote cite {
 .container1 {
   text-align: center;
   height: 100%;
-  border-right: 1px solid #000000;
+  border-right: 1px solid #0000004d;
 }
 
 .container2 {
@@ -308,7 +354,7 @@ blockquote cite {
 .container3 {
   text-align: center;
   height: 100%;
-  border-right: 1px solid #000000;
+  border-right: 1px solid #0000004d;
 
 
 }
@@ -322,19 +368,40 @@ blockquote cite {
 .p-experience {
   color: #000000f0;
   font-size: clamp(0.9em, 0.9em, 0.9em);
-  font-weight: 500;
+  font-weight: bold;
 }
 
-
-
-
+.p-experience-company {
+  color: #000000f0;
+  font-size: clamp(0.9em, 0.9em, 0.9em);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
 
 .p-experience-container2 {
-  color: #000000e1;
+  color: #000000b4;
   font-size: clamp(1em, 1em, 1em);
+  font-weight: lighter;
 }
 
+
+
+
 @media(min-width: 518px) and (max-width: 740px) {
+
+  .h1-experience {
+    letter-spacing: 0.3rem;
+    color: #000000f5;
+    font-weight: bold;
+    font-size: clamp(0.8em, 0.8em, 0.8em);
+    text-transform: uppercase;
+  }
+
+  .p-experience-company {
+    color: #000000f0;
+    font-size: clamp(0.7em, 0.7em, 0.7em);
+    text-transform: uppercase;
+  }
 
   .p-experience {
     color: #000000f0;
@@ -353,17 +420,31 @@ blockquote cite {
 
 @media(min-width: 341px) and (max-width: 517px) {
 
+  .h1-experience {
+    letter-spacing: 0.1rem;
+    color: #000000f5;
+    font-weight: bold;
+    font-size: clamp(0.74em, 0.74em, 0.74em);
+    text-transform: uppercase;
+  }
+
+  .p-experience-company {
+    color: #000000f0;
+    font-size: clamp(0.3em, 0.3em, 0.3em);
+    text-transform: uppercase;
+  }
+
 
   .p-experience {
     color: #000000f0;
-    font-size: clamp(0.7em, 0.7em, 0.7em);
+    font-size: clamp(0.6em, 0.6em, 0.6em);
     font-weight: 500;
   }
 
 
   .p-experience-container2 {
     color: #000000e1;
-    font-size: clamp(0.6em, 0.6em, 0.6em);
+    font-size: clamp(0.35em, 0.35em, 0.35em);
   }
 
 }
