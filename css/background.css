@@ -393,10 +393,9 @@ blockquote cite {
 }
 
 
-.background-competence{
+.background-competence {
   background-color: #182153;
   width: 100%;
-  height: 500px;
 }
 
 
@@ -421,6 +420,39 @@ blockquote cite {
   text-transform: uppercase;
   display: flex;
 }
+
+.frontEnd-title-position {
+  display: flex;
+  justify-content: center;
+  height: 15%;
+
+}
+
+.frontEnd-title {
+  color: #fffffff5;
+  font-weight: bold;
+  font-size: clamp(1em, 1em, 1em);
+  text-transform: uppercase;
+  display: flex;
+}
+
+.front-end-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff47;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 50px;
+}
+
+.p-front-end {
+  font-size: clamp(0.9em, 0.9em, 0.9em);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+}
+
 
 
 @media(min-width: 518px) and (max-width: 740px) {
@@ -470,6 +502,31 @@ blockquote cite {
   .p-experience-container2 {
     color: #000000e1;
     font-size: clamp(0.7em, 0.7em, 0.7em);
+  }
+
+  .frontEnd-title {
+    color: #fffffff5;
+    font-weight: bold;
+    font-size: clamp(0.6em, 0.6em, 0.6em);
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  .front-end-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff47;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 30px;
+  }
+
+  .p-front-end {
+    font-size: clamp(0.7em, 0.7em, 0.7em);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
   }
 }
 
@@ -529,6 +586,28 @@ blockquote cite {
     color: #000000e1;
     font-size: clamp(0.9em, 1em, 0.4em);
   }
+
+  .frontEnd-title {
+    color: #fffffff5;
+    font-weight: bold;
+    font-size: clamp(0.6em, 0.6em, 0.6em);
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  .p-front-end {
+    font-size: clamp(0.6em, 0.6em, 0.6em);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+
+  .front-end-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff47;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+  }
 }
-
-
