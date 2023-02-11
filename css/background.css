@@ -449,9 +449,11 @@ blockquote cite {
   font-size: clamp(0.9em, 0.9em, 0.9em);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-
 }
 
+.space-containers2{
+  margin-bottom: 7%;
+}
 
 
 @media(min-width: 518px) and (max-width: 740px) {
